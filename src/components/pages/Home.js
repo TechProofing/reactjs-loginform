@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../../App.css'
+import Footer from '../Footer';
 
 function Home() {
     return (
-        <div>
-            <h1>Home</h1>
-        </div>
+        <>
+         <Footer />
+        </>
     )
 }
 

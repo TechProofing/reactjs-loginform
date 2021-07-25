@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Navbar from './components/Navbar';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
 import LoginForm from './components/LoginForm';
@@ -44,6 +45,7 @@ function App() {
     
     <>
     <Router>
+      <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path='/login' component={LoginForm} />
