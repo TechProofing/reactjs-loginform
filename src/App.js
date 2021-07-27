@@ -9,9 +9,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
-import LoginForm from './components/LoginForm';
+import LoginForm from './techproofing-components/LoginForm/LoginForm';
 import Products from './components/pages/Products';
 import SignUp from './components/pages/SignUp';
+import Status from './techproofing-components/Status/Status';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path='/services' component={Services} />
         <Route path='/products' component={Products} />
         <Route path='/sign-up' component={SignUp} />
+        <Route path='/status' component={Status} />
       </Switch>
       <Footer />
     </Router>

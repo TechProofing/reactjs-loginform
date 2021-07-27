@@ -1,0 +1,3 @@
+[submodule "src/techproofing-components"]
+	path = src/techproofing-components
+	url = https://github.com/TechProofing/reactjs-components.git
