@@ -5,12 +5,12 @@
   font-family: montserrat, sans-serif;
 }
 
-input, button {
+/* input, button {
   appearance: none;
   background: none;
   border: none;
   outline: none;
-}
+} */
 
 .App {
   height: 100vh;
@@ -20,7 +20,7 @@ input, button {
   background-color: #53565A;
 }
 
-form {
+/* form {
   display: block;
   position: relative;
 }
@@ -100,7 +100,7 @@ form .form-inner input[type="submit"],
 form .form-inner input[type="submit"]:hover,
 .welcome button:hover {
   background-position: 100% 0%;
-}
+} */
 
 .welcome {
   width: 100%;
